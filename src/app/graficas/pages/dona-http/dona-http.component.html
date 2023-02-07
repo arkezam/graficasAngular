@@ -1,0 +1,18 @@
+
+<div class="alert alert-primary" role="alert" *ngIf="doughnutChartData.datasets[0].data.length===0; divgrafica">
+    <strong>Cargando Datos</strong> espere un momento.. (O Ejecutar "npm json-server --watch db.json")
+</div>
+
+
+
+<div class="container-md" #divgrafica>
+    <div class="row-cols-2 justify-content-center align-items-center g-2">
+        <div class="col">
+            <h3>Redes Sociales</h3>
+            <canvas baseChart class="chart"
+            [data]="doughnutChartData"
+            [type]="doughnutChartType">
+            </canvas>
+        </div>
+    </div>
+</div>

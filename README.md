@@ -1,26 +1,47 @@
-# Graficas
+# Proyecto de Angular con Gráficas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Este proyecto de Angular utiliza Chart.js para crear gráficas dinámicas y atractivas en aplicaciones web. Con este proyecto, puedes crear diferentes tipos de gráficas, como barras y donas, para visualizar tus datos de manera efectiva [Visita la página del proyecto](https://resplendent-pony-f963ff.netlify.app/).
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Interfaz de usuario intuitiva y fácil de usar.
+Integración con Chart.js para la creación de gráficas dinámicas.
+Visualización de datos en diferentes formatos, como barras, líneas, tortas, etc.
+Posibilidad de personalizar la apariencia de las gráficas.
 
-## Code scaffolding
+[![Previsualización](https://i.postimg.cc/cCR9HBmj/Captura.png)](https://postimg.cc/vxmL29CL)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Requisitos previos
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+* Conocimientos básicos de Angular.
+* Instalación de Node.js y npm.
 
-## Running unit tests
+## Instalacion
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clona este repositorio en tu sistema local.
+2. Abre un terminal en la carpeta del proyecto.
+3. Ejecuta el comando npm install para instalar las dependencias necesarias.
+4. Para las pruebas http instalar json-server y ejecutar el comando npm json-server --watch db.json 
+5. Ejecuta el comando ng serve para iniciar el servidor de desarrollo.
+6. Accede a http://localhost:4200/ en tu navegador para ver la aplicación en funcionamiento.
+
+
+## Uso
+
+* Selecciona el tipo de gráfica que deseas crear.
+* Personaliza la apariencia de la gráfica si lo deseas.
+Visualiza la gráfica generada con tus datos.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Este proyecto está abierto a contribuciones. Si deseas contribuir, sigue los siguientes pasos:
+
+Haz un fork del repositorio.
+Crea una rama para tu contribución.
+Haz tus cambios en la rama creada.
+Haz un pull request a la rama principal.
+¡Gracias por considerar contribuir a este proyecto!
 
 ## Further help
 

@@ -1,0 +1,10 @@
+<!-- Hover added -->
+<div class="list-group">
+    <ul >
+        <li  
+        *ngFor="let item of link"
+        [routerLink]="[item.ruta]"
+        routerLinkActive="active"
+        class="list-group-item list-group-item-action"> {{item.nombre}} </li>
+    </ul>
+</div>

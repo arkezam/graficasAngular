@@ -1,0 +1,12 @@
+<div >
+    <canvas baseChart class="chart"
+     
+        [data]="barChartData"
+        [options]="barChartOptions" 
+        [type]="barChartType" 
+        (chartClick)="chartClicked($event)">
+</canvas>
+
+<button class="btn btn-primary" color="primary" (click)="randomize()">Update</button>
+
+</div>
